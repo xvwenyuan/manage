@@ -1,0 +1,100 @@
+{
+  "id": "1663011",
+  "name": "weixinminiprogram",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "4948950",
+      "name": "箭头",
+      "font_class": "jiantou",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "8145817",
+      "name": "箭头",
+      "font_class": "jiantou1",
+      "unicode": "e663",
+      "unicode_decimal": 58979
+    },
+    {
+      "icon_id": "7677302",
+      "name": "分享",
+      "font_class": "fenxiang",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "11341078",
+      "name": "9navbar_主页",
+      "font_class": "navbar_zhuye",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "11341079",
+      "name": "10navbar_主页_选中",
+      "font_class": "navbar_zhuye_xuanzhong",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "13168124",
+      "name": "01TABbar-fill",
+      "font_class": "TABbar-fill",
+      "unicode": "e729",
+      "unicode_decimal": 59177
+    },
+    {
+      "icon_id": "13168125",
+      "name": "01TABbar",
+      "font_class": "TABbar",
+      "unicode": "e72a",
+      "unicode_decimal": 59178
+    },
+    {
+      "icon_id": "13168128",
+      "name": "03TABbar",
+      "font_class": "TABbar1",
+      "unicode": "e72b",
+      "unicode_decimal": 59179
+    },
+    {
+      "icon_id": "13168129",
+      "name": "04TABbar",
+      "font_class": "TABbar2",
+      "unicode": "e72c",
+      "unicode_decimal": 59180
+    },
+    {
+      "icon_id": "13168130",
+      "name": "05TABbar",
+      "font_class": "TABbar3",
+      "unicode": "e72d",
+      "unicode_decimal": 59181
+    },
+    {
+      "icon_id": "13168131",
+      "name": "05TABbar-fill",
+      "font_class": "TABbar-fill1",
+      "unicode": "e72e",
+      "unicode_decimal": 59182
+    },
+    {
+      "icon_id": "13168133",
+      "name": "03TABbar-fill",
+      "font_class": "TABbar-fill2",
+      "unicode": "e72f",
+      "unicode_decimal": 59183
+    },
+    {
+      "icon_id": "13168135",
+      "name": "04TABbar-fill",
+      "font_class": "TABbar-fill3",
+      "unicode": "e730",
+      "unicode_decimal": 59184
+    }
+  ]
+}

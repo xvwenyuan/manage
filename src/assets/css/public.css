@@ -1,0 +1,39 @@
+html,
+body,
+#app {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    min-width: 1366px;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #a1a3a9;
+  border-radius: 3px;
+}
+.goods .demo-table-expand {
+  font-size: 0;
+}
+.goods .demo-table-expand label {
+  width: 130px;
+  color: #99a9bf;
+}
+.goods .demo-table-expand .el-form-item {
+  margin-right: 0;
+  margin-bottom: 0;
+  width: 50%;
+}
+.goods .el-form-item span{
+  display: inline-block;
+  width: 350px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.goods .el-form-item span:hover{
+  cursor: pointer;
+}
