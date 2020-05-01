@@ -15,7 +15,7 @@
         </el-dropdown>
       </el-header>
       <el-container>
-        <el-aside :width="isCollapse ? '60px' : '200px'">
+        <el-aside :width="isCollapse ? '64px' : '200px'">
           <el-menu
             class="el-menu-vertical-demo"
             background-color="#001529"
@@ -110,7 +110,7 @@ $color: #001529;
         line-height: 60px;
         color: #000;
         float: left;
-        margin-left: 30px;
+        margin-left: 4px;
       }
       .el-dropdown {
         float: right;
@@ -137,11 +137,11 @@ $color: #001529;
       }
     }
     .el-container {
-      height: 100%;
+      height: calc(100% - 60px);
       width: 100%;
       .el-aside {
+        transition: width 0.1s ease-in-out;
         height: 100%;
-        width: 100%;
         position: relative;
         background-color: $color;
       }

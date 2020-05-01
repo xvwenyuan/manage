@@ -137,6 +137,7 @@
       :visible.sync="setRightDialogVisible"
       center
       :close-on-click-modal="false"
+      destroy-on-close
     >
       <el-form :model="ruleForm" :rules="rules" ref="ruleForm" class="demo-ruleForm">
         <el-form-item v-show="flag" prop="groupgoods_id" label="商品ID">
@@ -251,6 +252,10 @@ export default {
       total: 0,
       ishide: false,
       options: [
+         {
+          value: 2,
+          label: "全部"
+        },
         {
           value: 0,
           label: "下架"
@@ -258,11 +263,7 @@ export default {
         {
           value: 1,
           label: "上架"
-        },
-        {
-          value: 2,
-          label: "全部"
-        }
+        } 
       ],
       addItem: {
         groupgoods_id: "",

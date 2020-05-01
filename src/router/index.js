@@ -20,18 +20,18 @@ const routes = [
     component: Home,
     children: [{
       path: 'goodslist',
-      component: () => import('../components/GoodsList')
+      component: () => import('../views/GoodsList')
     },
     {
       path: 'grouplist',
-      component: () => import('../components/GroupList')
+      component: () => import('../views/GroupList')
     },
     {
       path: 'groupsetting',
-      component: () => import('../components/GroupSetting')
+      component: () => import('../views/GroupSetting')
     }, {
       path: '/',
-      component: () => import('../components/index'),
+      component: () => import('../views/Index'),
     }
     ]
   },

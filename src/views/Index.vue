@@ -17,10 +17,6 @@ export default {};
 </script>
 
 <style lang="scss" scoped>
-// .index{
-//     width: 100%;
-//     height: 100%;
-// }
 .center {
   position: absolute;
   transform: translate(-50%, -50%);

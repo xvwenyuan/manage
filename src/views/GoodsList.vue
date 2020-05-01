@@ -128,6 +128,7 @@
       :visible.sync="setRightDialogVisible"
       center
       :close-on-click-modal="false"
+      destroy-on-close
     >
       <el-form :model="ruleForm" :rules="rules" ref="ruleForm" class="demo-ruleForm">
         <el-form-item prop="goods_id" label="商品ID" v-show="flag">
